@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1946791327128792957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946791327128792931}
+  - component: {fileID: 1946791327128792956}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946791327128792931
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946791327128792957}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.250786, y: -13.2432995, z: -5.9941635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1946791327128792956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946791327128792957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8331766464c005d44aab85236409f2e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initCountdownTime: 300
+  sizes:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 4
+  - 4
+  - 8
+  spawnShapeAmount: 50
+  spawnShapeCycleTime: 30
+  shapes:
+  - {fileID: 5827735935041737083, guid: b6d9218762109aa4f90ed2e1ec4c647f, type: 3}
+  - {fileID: 5707239243543263018, guid: 189de21b2975b354cbae8f172139211e, type: 3}
+  - {fileID: 1225614054145469798, guid: eedede8430a640d48afabee583321040, type: 3}
+  - {fileID: 4211173340510513044, guid: eee799b7d5b00d34bb42f2cf588a8ec1, type: 3}
+  spawnSpikeAmount: 50
+  spawnSpikeCycleTime: 5
+  spike: {fileID: 2746373767327646674, guid: c8de874d4c3fc3142b64936b7ab2e750, type: 3}
+  displayTime: {fileID: 0}
+  displayScore: {fileID: 0}
+  gameSound: {fileID: 8300000, guid: 7acd2aaf36caaf240801cecf7909fa5a, type: 3}
